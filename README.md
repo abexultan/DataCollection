@@ -11,7 +11,7 @@ Allows collection of data for the game Cities: Skylines
 ## Camera positions capturing:
 * Load the game with mod installed in your city of choice
 * While in freecamera (lower right corner button) fly over your city, stop at the position and orientation you thinks is appropriate and press `Delete` key on your keyboard
-** Current position and orientation will be written in the `.txt` file called `campos` which we will be using later
+    * Current position and orientation will be written in the `.txt` file called `campos` which we will be using later
 * Repeat the previous step at different locations (preferably ~40-50 locations are enough)
 ## Data collection:
 * After caputring camera positions, open this project in Visual Studio and in `DataCollectionLogic.cs` change the field `camposfile` with the full path (`C:\Users\*YOURUSERNAME*\AppData\Local\Colossal Order\Cities_Skylines\ModConfig\DataCollection\GameSession-YYYYMMDDHHmmss`) to `campos.txt` file you have previously collected
